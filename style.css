@@ -1,31 +1,61 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-    font-family: 'Merriweather', serif;
+body {
+    font-family: "Merriweather", serif;
 }
-.container{
-    width:1320px;
-    margin:0 auto; 
+.container {
+    width: 1320px;
+    margin: 0 auto;
     height: 600px;
     background-image: url(images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
 }
-.banner-title{
-    color: #FFF;
+.banner-title {
+    color: #fff;
     padding-top: 140px;
-text-align: center;
+    text-align: center;
 }
-.banner-title h3{
-font-size: 32px;
+.banner-title h3 {
+    font-size: 32px;
 
-font-weight: 400;
-
+    font-weight: 400;
 }
-.banner-title h1{
+.banner-title h1 {
     padding-top: 15px;
-font-size: 80px;
-font-weight: 900;
+    font-size: 80px;
+    font-weight: 900;
+}
+/* discount section */
+.all-categories{
+    margin-top: 120px;
+}
+.discount {
+    text-align: center;
+    color: #f00;
+    font-family: "Inter", sans-serif;
+}
+.discount h1 {
+    font-size: 100px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.categories h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+.new-year-pic {
+    text-align: center;
+}
+.new-year-pic img {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
