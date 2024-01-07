@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+.container{
+    width:1320px;
+    margin:0 auto; 
+    height: 600px;
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-title{
+    color: #FFF;
+    padding-top: 140px;
+text-align: center;
+}
+.banner-title h3{
+font-size: 32px;
+
+font-weight: 400;
+
+}
+.banner-title h1{
+    padding-top: 15px;
+font-size: 80px;
+font-weight: 900;
+}
