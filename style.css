@@ -9,7 +9,12 @@ body {
     width: 1320px;
     margin: 40px auto;
     height: 600px;
-    background-image: url(images/Banner\ Image.png);
+    background-image: linear-gradient(
+            180deg,
+            #070211 0%,
+            rgba(7, 2, 17, 0) 100%
+        ),
+        url(images/Banner\ Image.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -110,7 +115,12 @@ body {
 .invitation {
     width: 1320px;
     height: 482px;
-    background: #fff8f3; 
+    /* background: #fff8f3;  */
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 0, 0, 0.1) 0%,
+        rgba(255, 0, 0, 0) 100%
+    );
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 140px;
@@ -286,17 +296,16 @@ body {
     text-align: center;
     padding-bottom: 70px;
 }
-.Subscribe img{
+.Subscribe img {
     padding-top: 70px;
 }
-.sub-input{
+.sub-input {
     padding: 23px 50px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border: none;
-    
 }
-.Subscribe button{
+.Subscribe button {
     padding: 20px 50px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -304,4 +313,39 @@ body {
     background: red;
     color: #fff;
     font-size: 15px;
+}
+/* footer section */
+footer {
+    width: 100%;
+    color: white;
+    background-color: #070211;
+    padding-top: 150px;
+    margin-top: 140px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 40px auto;
+}
+.footer-contact .div {
+    display: flex;
+    gap: 20px;
+}
+.horizental {
+    color: #fff;
+    width: 1320px;
+    margin: 40px auto;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.copy-right {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 40px auto;
+    padding-bottom: 120px;
 }
