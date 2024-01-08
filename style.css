@@ -29,7 +29,7 @@ body {
     font-weight: 900;
 }
 /* discount section */
-.all-categories{
+.all-categories {
     margin-top: 120px;
 }
 .discount {
@@ -58,4 +58,53 @@ body {
     height: 500px;
     margin: 0 auto;
     margin-top: 50px;
+}
+/* welcome party seation */
+.welcome-midnight-party {
+    width: 1320px;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px;
+}
+.welcome-text h1 {
+    margin-left: 130px;
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.welcome-text p {
+    margin-left: 130px;
+    padding-top: 15px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.welcome-text button {
+    margin-left: 160px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    
+}
+.party-img img{
+    display: flex;
+    width: 320px;
+    height:460px;
+    margin-right: 120px;
+    justify-content: center;
+
 }
