@@ -110,7 +110,7 @@ body {
 .invitation {
     width: 1320px;
     height: 482px;
-    background: #fff8f3;
+    background: #fff8f3; 
     border-radius: 10px;
     margin: 0 auto;
     margin-top: 140px;
@@ -214,7 +214,7 @@ body {
     font-size: 20px;
     font-weight: 500;
 }
-.holidays-images{
+.holidays-images {
     position: relative;
 }
 .discount-section {
@@ -223,8 +223,7 @@ body {
     margin-top: 60px;
 }
 
-.discount-product{
-    
+.discount-product {
     width: 250px;
     height: 250px;
     position: absolute;
@@ -232,12 +231,12 @@ body {
     margin-right: 300px;
 }
 
-.product{
-    width:400px;
+.product {
+    width: 400px;
     height: 430px;
 }
-.surprise-box{
-    position:absolute;
+.surprise-box {
+    position: absolute;
     width: 500px;
     height: 500px;
     bottom: 50px;
@@ -251,28 +250,58 @@ body {
     margin: 0 auto;
     margin-top: 140px;
 }
-.item-collection h4{
-    color:#f00;
-    font-size:25px;
+.item-collection h4 {
+    color: #f00;
+    font-size: 25px;
     font-weight: 400;
-    
 }
-.item-collection h1{
+.item-collection h1 {
     font-size: 50px;
-    margin:20px 0px;
+    margin: 20px 0px;
 }
-.item-collection p{
-    color:#07021199;
+.item-collection p {
+    color: #07021199;
     margin-bottom: 30px;
 }
-.item-img{
+.item-img {
     display: flex;
     gap: 10px;
     padding: 5px;
-    
 }
-.item-img img{
+.item-img img {
     width: 424px;
     height: 450px;
     object-fit: cover;
+}
+/* subscribe section */
+.Subscribe {
+    width: 1320px;
+    background: #fff8f3;
+    margin: 0 auto;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+.Subscribe img{
+    padding-top: 70px;
+}
+.sub-input{
+    padding: 23px 50px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: none;
+    
+}
+.Subscribe button{
+    padding: 20px 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: none;
+    background: red;
+    color: #fff;
+    font-size: 15px;
 }
