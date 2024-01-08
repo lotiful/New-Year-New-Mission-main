@@ -242,5 +242,37 @@ body {
     height: 500px;
     bottom: 50px;
     left: 100px;
-   
+}
+
+/* item section */
+.item-collection {
+    width: 1320px;
+
+    margin: 0 auto;
+    margin-top: 140px;
+}
+.item-collection h4{
+    color:#f00;
+    font-size:25px;
+    font-weight: 400;
+    
+}
+.item-collection h1{
+    font-size: 50px;
+    margin:20px 0px;
+}
+.item-collection p{
+    color:#07021199;
+    margin-bottom: 30px;
+}
+.item-img{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    
+}
+.item-img img{
+    width: 424px;
+    height: 450px;
+    object-fit: cover;
 }
