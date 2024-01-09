@@ -282,6 +282,10 @@ body {
     width: 424px;
     height: 450px;
     object-fit: cover;
+    transition: all 0.3s ease-in;
+}
+.item-img img:hover{
+    transform: scale(1.02);
 }
 /* subscribe section */
 .Subscribe {
